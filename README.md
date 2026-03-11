@@ -89,24 +89,3 @@ Kept writable via an `INSTEAD OF INSERT` trigger that:
 ```sql
 EXEC introduce_exceptii;
 ```
-
----
-
-## 📁 File Structure
-
-```
-├── schema/
-│   ├── 01_create_tables.sql
-│   ├── 02_alter_constraints.sql
-│   └── 03_insert_data.sql
-├── queries/
-│   ├── overdue_loans.sql
-│   ├── coauthor_pairs.sql
-│   └── genre_stats.sql
-└── plsql/
-    ├── procedure_introduce_exceptii.sql
-    ├── trigger_verifica_autor.sql
-    └── view_carti_beletristica.sql
-```
-
-> **Note:** The file structure above reflects a recommended organization. Adjust paths to match your actual project layout.
